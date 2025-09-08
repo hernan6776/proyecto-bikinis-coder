@@ -2,3 +2,18 @@
 
 //comentario sass
 
+@use "./generales/variables";
+@use "./generales/headerFooter";
+
+
+@use "./page/index";
+@use "./page/contacto";
+@use "./page/galeria";
+@use "./page/servicio-cliente";
+@use "./page/sobre-nosotros";
+
+
+//mediaQ siempre al ultimo
+@use "./generales/mediaQueries"; //es importante que el ultimo parshall siempre sea el de media queries para que no me lo pise en la compilacion.
+
+

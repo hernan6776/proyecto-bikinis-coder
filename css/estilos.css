@@ -72,7 +72,7 @@ background-color: rgba(89, 11, 81, 0.5);
 
 /* MAIN - BANNER */
 
-.banner {
+/* .banner {
   background-image: url(../assets/img/woman.jpg);
   background-size: cover;
   background-position: center;
@@ -80,39 +80,39 @@ background-color: rgba(89, 11, 81, 0.5);
   text-shadow: 1px 1px 1px rgb(240, 240, 240);
   height: 100vh;
   background-attachment: fixed;
-}
+} */
 
-.titulo-banner{
-  color:#590b51;
+/* .titulo-banner{ */
+  /* color:#590b51;
   font-family:"permanent-marker", sans-serif;
   font-weight:400;
   font-size:5rem;
-  text-align: center;
+  text-align: center; */
   /* font-style:normal; */
   /* padding-top: 5%; */
 
-}
+/* } */
 
-.subtitulo-banner{
+/* .subtitulo-banner{
   color:#590b51;
   font-size: 2rem;
   text-align: center;
   margin-top: 10%;
   margin-bottom: px;
-}
+} */
 
-.contenido-banner{
+/* .contenido-banner{
   font-size: 0.7em;
   color: #590b51;
   font-weight: bold;
   text-align: center;
   width: 100%; 
   margin-top: 10px;
-  }
+  } */
 
-.contenido-banner p {
+/* .contenido-banner p {
   font-size: 2em
-}
+} */
 
 
 /* MAIN - CARDS */
@@ -279,7 +279,7 @@ p {
 }
 
 
-
+/* 
 @media screen and (max-width:800px) {
   .container-img{
     width: 95%;
@@ -301,7 +301,7 @@ p {
   .container-img .box-img img {
     height: 200px;
   }
-}
+} */
 
 
 /*********************************PAGE SOBRE NOSOTROS***********************************/

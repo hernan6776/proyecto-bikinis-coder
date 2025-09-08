@@ -1,3 +1,62 @@
 /*comentario css*/
+/* MAIN - BANNER */
+.banner {
+  background-image: url(../assets/img/woman.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 1px 1px 1px rgb(240, 240, 240);
+  height: 100vh;
+  background-attachment: fixed;
+}
+.banner .titulo-banner {
+  color: #590b51;
+  font-family: "permanent-marker", sans-serif;
+  font-weight: 400;
+  font-size: 5rem;
+  text-align: center;
+  /* font-style:normal; */
+  /* padding-top: 5%; */
+}
+.banner .contenido-banner {
+  font-size: 0.7em;
+  color: #590b51;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.banner .contenido-banner .subtitulo-banner {
+  color: #590b51;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 10%;
+}
+.banner .contenido-banner p {
+  font-size: 2em;
+}
+
+@media screen and (max-width: 800px) {
+  .container-img {
+    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: 200px;
+  }
+  .container-img .box-img:nth-child {
+    grid-column-start: span 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container-img {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: 200px;
+  }
+  .container-img .box-img img {
+    height: 200px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

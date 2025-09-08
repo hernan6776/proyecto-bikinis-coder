@@ -1,0 +1,44 @@
+@use "../generales/variables" as c;
+
+
+/* MAIN - BANNER */
+
+.banner {
+  background-image: url(../assets/img/woman.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat:  no-repeat;
+  text-shadow: 1px 1px 1px rgb(240, 240, 240);
+  height: 100vh;
+  background-attachment: fixed;
+
+    .titulo-banner{
+        color: c.$purpura-oscuro;
+        font-family:"permanent-marker", sans-serif;
+        font-weight:400;
+        font-size:5rem;
+        text-align: center;
+        /* font-style:normal; */
+        /* padding-top: 5%; */
+    }
+    .contenido-banner{
+        font-size: 0.7em;
+        color: c.$purpura-oscuro;
+        font-weight: bold;
+        text-align: center;
+        width: 100%; 
+        margin-top: 10px;
+            .subtitulo-banner{
+                color: c.$purpura-oscuro;
+                font-size: 2rem;
+                text-align: center;
+                margin-top: 10%;
+                // margin-bottom: 12px;
+            }
+            p {
+                font-size: 2em
+            }
+    }
+
+
+}

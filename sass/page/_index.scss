@@ -1,4 +1,6 @@
 @use "../generales/variables" as c;
+@use "../generales/generales";
+@use "../generales/headerFooter";
 
 
 /* MAIN - BANNER */
@@ -41,4 +43,25 @@
     }
 
 
+}
+
+
+/* MAIN - CARDS */
+
+
+.productos-subtitulo {
+  color:#590b51;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 20px;
+}
+
+
+.card {
+  .card-body {
+    .card-title {
+      color: #590b51;
+    }
+  }
 }

@@ -1,57 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-@import url("https://use.typekit.net/vmr3hms.css");
+@import url("https://use.typekit.net/vmr3hms.css"); */
 
-* {
+/* * {
   font-family: "Roboto Slab", serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}  
+}   */
 
 
 /* HEADER */
 
-.header {
+/* .header {
   position: sticky;
   top: 0px;
   z-index: 100;
-}
+} */
 
 /* LOGO DEL HEADER */
 
-header img {
+/* header img {
   width: 85px;
   border-radius: 50%;
   margin-top: 2px;
   margin-left: 5px;
-}
+} */
 
 /*DETALLES DEL NAV COMUN*/
 
-header ul {
+/* header ul { */
   /* list-style: none; */
   /* display: flex; */
   /* justify-content:space-between; */
   /* align-items: center; */
   /* height: 100%; */
-  margin-right: 20px;
-}
+  /* margin-right: 20px; */
+/* } */
 
 
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+/* .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: rgb(66, 3, 95);
   font-weight: bold;
-}
+} */
 
 
 /*               MENU HAMBURGUESA                    */
 
 
-.navbar-toggler i {
-    color:#590b51; /* color texto de navegación */
-    font-size: 1.8rem; /* tamaño de fuente ícono */
+/* .navbar-toggler i {
+    color:#590b51; 
+    font-size: 1.8rem; 
 }
 
 .navbar-toggler:focus {
@@ -66,7 +66,7 @@ background-color: rgba(89, 11, 81, 0.5);
 .navbar-toggler {
   border: none;
   border-radius: 100px;
-}
+} */
 
 /* MAIN */
 
@@ -118,7 +118,7 @@ background-color: rgba(89, 11, 81, 0.5);
 /* MAIN - CARDS */
 
 
-.productos-subtitulo {
+/* .productos-subtitulo {
   color:#590b51;
   font-size: 2rem;
   text-align: center;
@@ -129,7 +129,7 @@ background-color: rgba(89, 11, 81, 0.5);
 
 .card-title {
     color:#590b51;
-}
+} */
 
 
 

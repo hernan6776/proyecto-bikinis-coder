@@ -96,9 +96,9 @@ p {
 .footer small {
   font-size: 1.2em;
 }
-.footer {
+/* .footer { */
   /* logo de whatssapp */
-}
+/* } */
 .footer .logo-wsp {
   position: fixed;
   bottom: 40px;

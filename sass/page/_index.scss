@@ -31,7 +31,7 @@
       margin-top: 10px;
         .subtitulo-banner{
           color: c.$purpura-oscuro;
-          @include font-text;
+          @include c.font-text;
           margin-top: 10%;
           // margin-bottom: 12px;
         }
@@ -47,7 +47,7 @@
 
 .productos-subtitulo {
   color: c.$purpura-oscuro;
-  @include font-text;
+  @include c.font-text;
   margin-top: 2%;
   margin-bottom: 20px;
 }

@@ -1,3 +1,7 @@
 @use "../generales/variables" as c;
 @use "../generales/generales";
 @use "../generales/headerFooter";
+
+.main-sobre-nosotros {
+    color: c.$carbon;
+}

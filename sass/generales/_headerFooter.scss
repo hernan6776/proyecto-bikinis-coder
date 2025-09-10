@@ -52,3 +52,86 @@
         font-size: 1.8rem;
     }
 }
+
+/*FOOTER*/
+
+.footer{
+  background-color: #dcecec;
+  font-size: 10px;
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    a{
+      text-decoration: none;
+      color: c.$purpura-oscuro;
+      font-size: 1.5em;   
+    }
+    .fa-facebook, .fa-x-twitter,.fa-instagram{
+      font-size: 3em;
+    }
+    a:hover i {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out; 
+    }
+  }
+  p{
+    font-size: 1.5em;
+  }
+  small{
+    font-size:1.2em;
+  }
+    /* logo de whatssapp */
+  .logo-wsp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+        .fa-whatsapp{
+        font-size: 5rem;
+        color:#25D366
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer-items {
+  display: flex; 
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.footer-mapa iframe {
+    width: 100%;
+}
+
+.small {
+  text-align: center;
+  padding: 5px;
+}
+
+@media (max-width: 768px) { 
+    .footer-items {
+        flex-direction: column; 
+        gap: 20px; 
+    }
+
+    .footer-mapa {
+        width: 100%; 
+    }
+}

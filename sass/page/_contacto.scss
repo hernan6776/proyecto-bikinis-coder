@@ -1,3 +1,17 @@
 @use "../generales/variables" as c;
 @use "../generales/generales";
 @use "../generales/headerFooter";
+
+
+.main-contacto {
+  color: c.$carbon;
+}
+
+fieldset {
+  margin-left: 20px;
+  .boton-enviar {
+    margin-bottom: 20px;
+    }
+}
+
+

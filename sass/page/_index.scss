@@ -13,7 +13,6 @@
   text-shadow: 1px 1px 1px rgb(240, 240, 240);
   height: 100vh;
   background-attachment: fixed;
-
     .titulo-banner{
         color: c.$purpura-oscuro;
         font-family:"permanent-marker", sans-serif;
@@ -24,25 +23,23 @@
         /* padding-top: 5%; */
     }
     .contenido-banner{
-        font-size: 0.7em;
-        color: c.$purpura-oscuro;
-        font-weight: bold;
-        text-align: center;
-        width: 100%; 
-        margin-top: 10px;
-            .subtitulo-banner{
-                color: c.$purpura-oscuro;
-                font-size: 2rem;
-                text-align: center;
-                margin-top: 10%;
-                // margin-bottom: 12px;
-            }
-            p {
-                font-size: 2em
-            }
+      font-size: 0.7em;
+      color: c.$purpura-oscuro;
+      font-weight: bold;
+      text-align: center;
+      width: 100%; 
+      margin-top: 10px;
+        .subtitulo-banner{
+          color: c.$purpura-oscuro;
+          font-size: 2rem;
+          text-align: center;
+          margin-top: 10%;
+          // margin-bottom: 12px;
+        }
+        p {
+          font-size: 2em
+        }
     }
-
-
 }
 
 
@@ -50,7 +47,7 @@
 
 
 .productos-subtitulo {
-  color:#590b51;
+  color: c.$purpura-oscuro;
   font-size: 2rem;
   text-align: center;
   margin-top: 2%;
@@ -61,7 +58,7 @@
 .card {
   .card-body {
     .card-title {
-      color: #590b51;
+      color: c.$purpura-oscuro;
     }
   }
 }

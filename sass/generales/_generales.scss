@@ -10,7 +10,7 @@
 }  
 
 h1 {
-  color:#590b51;
+  color: c.$purpura-oscuro;
   text-align: center;
   padding: 20px;
 }
@@ -25,5 +25,5 @@ h3 {
 }
 
 p {
-  margin-left: 20px;
+  @extend h3;
 }

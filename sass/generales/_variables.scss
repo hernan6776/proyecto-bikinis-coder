@@ -1,3 +1,9 @@
 //Variables
 $purpura-oscuro:#590b51;
 $carbon: #36454F;
+
+@mixin font-text {
+    font-size: 2rem;
+    text-align: center;
+}
+

@@ -31,8 +31,7 @@
       margin-top: 10px;
         .subtitulo-banner{
           color: c.$purpura-oscuro;
-          font-size: 2rem;
-          text-align: center;
+          @include font-text;
           margin-top: 10%;
           // margin-bottom: 12px;
         }
@@ -48,8 +47,7 @@
 
 .productos-subtitulo {
   color: c.$purpura-oscuro;
-  font-size: 2rem;
-  text-align: center;
+  @include font-text;
   margin-top: 2%;
   margin-bottom: 20px;
 }

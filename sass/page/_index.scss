@@ -59,5 +59,9 @@
       color: c.$purpura-oscuro;
     }
   }
+  &:hover {
+  transform: rotate(2deg);
+  transition: 1s;
+  }
 }
 

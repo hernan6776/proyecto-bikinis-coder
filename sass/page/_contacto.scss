@@ -14,4 +14,28 @@ fieldset {
     }
 }
 
+.formulario-contacto {
+    display: flex;
+    flex-direction: column; 
+    padding: 10px; 
+    width: 50%;
+    label {
+        margin-top: 15px; 
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: c.$carbon; 
+    }
+    textarea {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px; 
+    }
+    .boton-enviar {
+        margin-top: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+
+    }
+  }
 

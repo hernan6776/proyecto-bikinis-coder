@@ -196,6 +196,30 @@ fieldset .boton-enviar {
   margin-bottom: 20px;
 }
 
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 50%;
+}
+.formulario-contacto label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #36454F;
+}
+.formulario-contacto textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.formulario-contacto .boton-enviar {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
 .container-img {
   width: 100%;
   max-width: 1100px;
